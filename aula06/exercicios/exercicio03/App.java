@@ -3,11 +3,22 @@ package exercicios.exercicio03;
 public class App {
     public static void main(String[] args) {
 
-        Conta conta = new Conta(111);
+        Poupanca cp = new Poupanca(333);
+        Poupanca.setTaxaDeSaque(0.15);
 
-        conta.deposito(500);
-        conta.saque(300);
-            
-        System.out.println(conta);
+                if(cp.deposito(100)){
+            System.out.println("deposito realizado");
+        } else {
+            System.out.println("Falha na Operação");
         }
+
+        if (cp.saque(99.85)){
+            System.out.println("Saque realizado");
+        } else {
+            System.out.println("O Saque não foi realizado");
+        }
+            
+        System.out.println(cp);
+    }
+
 }

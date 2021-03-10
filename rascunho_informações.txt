@@ -9,3 +9,8 @@ comentario de bloco
 
 Material do treinamento
 https://github.com/EmersonPaduan/turma15b
+
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
+
+93 182 353 689
